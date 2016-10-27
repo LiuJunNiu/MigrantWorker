@@ -1,5 +1,6 @@
 <resources>
 
+    //项目主题设计
     <style name="MigrantBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- customize the color palette -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -8,5 +9,9 @@
 
     </style>
 
-    <style name="MigrantTheme" parent="MigrantBaseTheme"></style>
+    //项目的主题
+    <style name="MigrantTheme" parent="MigrantBaseTheme"/>
+
+    //Toolbar的主题
+    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 </resources>
